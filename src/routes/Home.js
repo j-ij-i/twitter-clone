@@ -20,7 +20,6 @@ const Home = ({userObj}) => {
             text : tweet,
             createdAt: Date.now(),
             creatorId: userObj.uid,//creatorId
-            
         });
         setTweet("");
     };

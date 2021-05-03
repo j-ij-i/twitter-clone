@@ -14,7 +14,6 @@ const Auth = () => {
       console.log(value);
       if (name === "email") {
         setEmail(value);
-
       } else if (name === "password") {
         setPassword(value);
       }
